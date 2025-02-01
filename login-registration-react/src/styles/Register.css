@@ -1,0 +1,65 @@
+/* Register.css */
+
+/* Styling for the entire registration form container */
+.register-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Form heading */
+  .register-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input fields */
+  .register-container input[type="text"],
+  .register-container input[type="password"],
+  .register-container input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Submit button */
+  .register-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .register-container button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Error or success messages */
+  .register-container .message {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .register-container .error {
+    color: #e74c3c;
+  }
+  
+  .register-container .success {
+    color: #2ecc71;
+  }
+  
